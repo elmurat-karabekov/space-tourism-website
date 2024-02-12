@@ -10,10 +10,79 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Frontend Mentor | Space tourism website</title>
   </head>
-  <body>
+  <body class="container">
+    <section class="flow" id="interactive-elements">
+      <h2 class="numbered-title"><span>03</span> Interactive elements</h2>
+
+      <!-- navigation -->
+      <div>
+        <nav>
+          <ul class="primary-navigation underline-indicators flex">
+            <li class="active">
+              <a class="uppercase text-white letter-spacing-2" href="#"
+                >Active</a
+              >
+            </li>
+            <li>
+              <a class="uppercase text-white letter-spacing-2" href="#"
+                >Hovered</a
+              >
+            </li>
+            <li>
+              <a class="uppercase text-white letter-spacing-2" href="#">Idle</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="tab-list underline-indicators flex">
+          <button
+            aria-selected="true"
+            class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+          >
+            Moon
+          </button>
+          <button
+            aria-selected="false"
+            class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+          >
+            Mars
+          </button>
+          <button
+            aria-selected="false"
+            class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+          >
+            Europa
+          </button>
+        </div>
+      </div>
+      <div class="dot-indicators flex">
+        <button aria-selected="true">
+          <span class="sr-only">Slide title</span>
+        </button>
+        <button aria-selected="false">
+          <span class="sr-only">Slide title</span>
+        </button>
+        <button aria-selected="false">
+          <span class="sr-only">Slide title</span>
+        </button>
+      </div>
+
+      <div class="numbered-indicators flex">
+        <button aria-selected="true" class="ff-serif ff-32">1</button>
+        <button aria-selected="false" class="ff-serif ff-32">2</button>
+        <button aria-selected="false" class="ff-seri ff-32f">3</button>
+      </div>
+    </section>
+    <div class="flex">
+      <a
+        href="#"
+        class="button-large uppercase ff-serif fs-32 text-dark bg-white"
+        >Explore</a
+      >
+    </div>
     00 Home 01 Destination 02 Crew 03 Technology So, you want to travel to Space
     Let’s face it; if you want to go to space, you might as well genuinely go to
     outer space and not hover kind of on the edge of it. Well sit back, and
